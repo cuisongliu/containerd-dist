@@ -6,4 +6,10 @@
 
 编译于 linux 4.15.0
 
+默认配置文件的位置
+
 config.toml defaults localction:  /etc/containerd/config.toml
+
+生成默认配置文件
+
+containerd config default > /etc/containerd/config.toml
