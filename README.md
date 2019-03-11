@@ -5,3 +5,5 @@
 2.  containerd version : 1.2.4 
 
 编译于 linux 4.15.0
+
+config.toml defaults localction:  /etc/containerd/config.toml
