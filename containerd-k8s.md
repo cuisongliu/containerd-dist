@@ -17,5 +17,5 @@
   - oci是由多家公司成立的项目,并由linux基金会进行管理,致力于container runtime 的标准的制定和runc的开发等工作。
 - runc
   - `runc` is a CLI tool for spawning and running containers according to the OCI specification.
-  - runc，是对于OCI标准的一个参考实现，是一个可以用于创建和运行容器的CLI(command-line interface)工具
+  - runc，是对于OCI标准的一个参考实现，是一个可以用于创建和运行容器的CLI(command-line interface)工具。
 
