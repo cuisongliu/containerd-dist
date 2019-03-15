@@ -13,6 +13,7 @@ After=network.target
   
 [Service]
 ExecStartPre=/sbin/modprobe overlay
+ExecStartPre=/sbin/modprobe br_netfilter
 ExecStart=/usr/local/bin/containerd
 Restart=always
 RestartSec=5
